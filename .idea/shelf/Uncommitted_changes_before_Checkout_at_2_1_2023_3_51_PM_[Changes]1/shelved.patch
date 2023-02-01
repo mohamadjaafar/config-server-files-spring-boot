@@ -1,0 +1,22 @@
+Index: limits-service.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.jpa.hibernate.ddl-auto= update\r\nspring.jpa.hibernate.properties.hibernate.format_sql= 'true'\r\nspring.jpa.hibernate.properties.hibernate.use_sql_comments= 'true'\r\nspring.jpa.hibernate.properties.hibernate.show_sql= 'true'\r\nspring.datasource.url= jdbc:postgresql://localhost:5432/vaadin\r\nspring.datasource.username= testuser\r\nspring.datasource.password= testuser\r\nserver.port= 8183\r\nlimits-service.max=999\r\nlimits-service.min=34\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/limits-service.properties b/limits-service.properties
+--- a/limits-service.properties	
++++ b/limits-service.properties	
+@@ -5,6 +5,7 @@
+ spring.datasource.url= jdbc:postgresql://localhost:5432/vaadin
+ spring.datasource.username= testuser
+ spring.datasource.password= testuser
+-server.port= 8183
+-limits-service.max=999
+-limits-service.min=34
++server.port= 8184
++limits-service.max=000
++limits-service.min=1
++spring.application.name=limits-service
+\ No newline at end of file
